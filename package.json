@@ -1,0 +1,21 @@
+{
+  "name": "software-engineering-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@langchain/community": "^0.3.40",
+    "@langchain/core": "^0.3.44",
+    "@langchain/google-genai": "^0.2.3",
+    "@langchain/langgraph": "^0.2.64",
+    "@langchain/openai": "^0.5.5",
+    "dotenv": "^16.5.0"
+  }
+}
