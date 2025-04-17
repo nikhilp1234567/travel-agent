@@ -6,7 +6,7 @@ import { HumanMessage, AIMessage } from "@langchain/core/messages"; //this allow
 import { createReactAgent } from "@langchain/langgraph/prebuilt"; // a pre built re-act agent graph structure
 
 //messages
-const prompt = "";
+const prompt = "Plan a DIY holiday for me. Consider the following: destination, budget, activities, and duration.";
 
 //quick changer for different models
 let num = 1;
